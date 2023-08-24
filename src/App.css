@@ -1,38 +1,101 @@
-.App {
+/* App.css */
+
+/* Estilos de Sidebar.js */
+.sidebar {
+  background-color: #f0f0f0;
+  width: 250px;
+  padding: 20px;
+}
+
+/* Estilos de Card.js */
+.card {
+  background-color: #ffffff;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+/* Estilos de SearchBar.js */
+.search-bar {
+  margin: 20px 0;
+}
+
+/* Estilos de HistoryTags.js */
+.history-tags {
+  margin-top: 10px;
+}
+
+/* Estilos de Register.js */
+.register-form {
+  margin: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+/* Estilos de Login.js */
+.login-form {
+  margin: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+/* Estilos de Logout.js */
+.logout-button {
+  background-color: #ff0000;
+  color: #ffffff;
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+}
+
+
+/* App.css */
+
+/* Estilos globales de la aplicación */
+
+.card {
+  /* Estilos generales para todas las tarjetas */
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin: 20px;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.card-image {
+  /* Estilos para la imagen de la tarjeta */
+  max-width: 100%;
+  height: auto;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.card-title {
+  /* Estilos para el título de la tarjeta */
+  margin-top: 10px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.card-rating {
+  /* Estilos para el contenedor de las estrellas de calificación */
+  margin-top: 10px;
 }
 
-.App-link {
-  color: #61dafb;
+.star {
+  /* Estilos para cada estrella de calificación */
+  cursor: pointer;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.filled {
+  /* Estilo para las estrellas llenas de calificación */
+  color: gold;
+}
+
+.like-button {
+  /* Estilos para el botón de "Me gusta" */
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.liked {
+  /* Estilo para el botón de "Me gusta" cuando está activo */
+  color: red;
 }

@@ -1,0 +1,26 @@
+.card {
+    border: 1px solid #ccc;
+    padding: 2vw;
+    margin: 2vw;
+    border-radius: 2vw;
+    background-color: #fff;
+  }
+  
+  .card-image {
+    max-width: 100%;
+  }
+  
+  .card-rating {
+    display: flex;
+    align-items: center;
+  }
+  
+  .card-like-button {
+    background-color: #ff5733;
+    color: #fff;
+    border: none;
+    padding: 1vw 2vw;
+    cursor: pointer;
+    border-radius: 2vw;
+  }
+  
