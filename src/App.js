@@ -55,7 +55,7 @@ const App = () => {
               id={meal.idMeal}
               name={meal.strMeal}
               image={meal.strMealThumb}
-              rating={meal.rating} // Asegúrate de tener esta propiedad en tus datos de platos
+              rating={meal.rating} //  propiedad en tus datos de platos
               liked={meal.liked} // Asegúrate de tener esta propiedad en tus datos de platos
               handleRatingChange={handleRatingChange}
               handleLikeClick={handleLikeClick}
